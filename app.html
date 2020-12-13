@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Jogo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <script src="jogo.js"></script>
   </head>
 
   <body onresize="redimensionaTela()">
+    <section class="container">
+      <!-- <img src="./imagens/bg.jpg" alt="" id=imgPrincipal> -->
+      <div class="row"> 
+        <div class="column">
+          <div class="painel">
 
-    <dir class="painel">
-
-      <dir class="vida">
-        <img id="v1" src="imagens/coracao_cheio.png">
-        <img id="v2" src="imagens/coracao_cheio.png">
-        <img id="v3" src="imagens/coracao_cheio.png">
-        
-      </dir>
-      <dir class="cronometro"> Tempo restante: <span id="cronometro"></span>
-        
-      </dir>
+            <div class="vida">
+              <img id="v1" src="imagens/coracao_cheio.png">
+              <img id="v2" src="imagens/coracao_cheio.png">
+              <img id="v3" src="imagens/coracao_cheio.png">
+              
+            </div>
+            <div class="cronometro"> Tempo restante: <span id="cronometro"></span>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
       
-    </dir>
-
-
-
+    </section>
 
     <script type="text/javascript">
     
